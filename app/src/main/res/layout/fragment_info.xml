@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_gravity="center"
+        android:background="@color/light_green"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Info"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="left"
+            android:background="@drawable/ic_back"
+            android:padding="15dp"
+            android:scaleType="fitCenter" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/dark_green"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10 Things You Should Know About Malaysian Culture"
+                android:textSize="22dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:gravity="center"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/white"/>
+
+            <ImageView
+                android:id="@+id/flag"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/flag_my"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/tips1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Everyone drinks Milo"
+                android:textSize="18dp"
+                android:fontFamily="monospace"
+                android:gravity="left"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/tips2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Most people speak English"
+                android:textSize="18dp"
+                android:fontFamily="monospace"
+                android:gravity="left"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/tips3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. 'Rain' is not a problem"
+                android:textSize="18dp"
+                android:fontFamily="monospace"
+                android:gravity="left"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/tips4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Food is fusion"
+                android:textSize="18dp"
+                android:fontFamily="monospace"
+                android:gravity="left"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/tips5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Squat toilets still exist"
+                android:textSize="18dp"
+                android:fontFamily="monospace"
+                android:gravity="left"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/tips6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6. You can shop 'til you drop"
+                android:textSize="18dp"
+                android:fontFamily="monospace"
+                android:gravity="left"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/tips7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7. Honesty in everything"
+                android:textSize="18dp"
+                android:fontFamily="monospace"
+                android:gravity="left"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/tips8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8. No shoes indoors"
+                android:textSize="18dp"
+                android:fontFamily="monospace"
+                android:gravity="left"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/tips9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="9. Eat with your right hand"
+                android:textSize="18dp"
+                android:fontFamily="monospace"
+                android:gravity="left"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/tips10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10. PDA not encouraged"
+                android:textSize="18dp"
+                android:fontFamily="monospace"
+                android:gravity="left"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/btn_openweb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Further reading"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:background="@drawable/rounded_button"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

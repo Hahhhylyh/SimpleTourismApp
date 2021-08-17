@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:enabled="true"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/nav_culture"
+        android:icon="@drawable/ic_culture"
+        android:enabled="true"
+        android:title="Culture" />
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_profile"
+        android:enabled="true"
+        android:title="Profile" />
+
+</menu>
